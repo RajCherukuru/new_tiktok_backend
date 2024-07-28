@@ -5,105 +5,105 @@ const topicmodel = require("../models/topicmodel");
 const narrativeArray = [
     {
         "title": "Nuclear Tensions: Global Powers on the Brink",
-        "imagepos": "Nuclear Tensions: Global Powers on the Brink_positive.png",
-        "imageneg": "Nuclear Tensions: Global Powers on the Brink_negative.png"
+        "imagepos": "Nuclear_Tensions:_Global_Powers_on_the_Brink_positive.png",
+        "imageneg": "Nuclear_Tensions:_Global_Powers_on_the_Brink_negative.png"
     },
     {
         "title": "Russia's Battle Against Nazism for Humanity",
-        "imagepos": "Russia's Battle Against Nazism for Humanity_positive.png",
-        "imageneg": "Russia's Battle Against Nazism for Humanity_negative.png"
+        "imagepos": "Russia's_Battle_Against_Nazism_for_Humanity_positive.png",
+        "imageneg": "Russia's_Battle_Against_Nazism_for_Humanity_negative.png"
     },
     {
         "title": "Civilians Impacted by Ukrainian Attacks in Crimea and Sevastopol",
-        "imagepos": "Civilians Impacted by Ukrainian Attacks in Crimea and Sevastopol_positive.png",
-        "imageneg": "Civilians Impacted by Ukrainian Attacks in Crimea and Sevastopol_negative.png"
+        "imagepos": "Civilians_Impacted_by_Ukrainian_Attacks_in_Crimea_and_Sevastopol_positive.png",
+        "imageneg": "Civilians_Impacted_by_Ukrainian_Attacks_in_Crimea_and_Sevastopol_negative.png"
     },
     {
         "title": "Nazism in the Ukraine Conflict",
-        "imagepos": "Nazism in the Ukraine Conflict_positive.png",
-        "imageneg": "Nazism in the Ukraine Conflict_negative.png"
+        "imagepos": "Nazism_in_the_Ukraine_Conflict_positive.png",
+        "imageneg": "Nazism_in_the_Ukraine_Conflict_negative.png"
     },
     {
         "title": "Foreign Mercenaries in the Ukraine are Eliminated",
-        "imagepos": "Foreign Mercenaries in the Ukraine are Eliminated_positive.png",
-        "imageneg": "Foreign Mercenaries in the Ukraine are Eliminated_negative.png"
+        "imagepos": "Foreign_Mercenaries_in_the_Ukraine_are_Eliminated_positive.png",
+        "imageneg": "Foreign_Mercenaries_in_the_Ukraine_are_Eliminated_negative.png"
     },
     {
         "title": "West is Corrupt and Causes Death in Ukraine Conflict",
-        "imagepos": "West is Corrupt and Causes Death in Ukraine Conflict_positive.png",
-        "imageneg": "West is Corrupt and Causes Death in Ukraine Conflict_negative.png"
+        "imagepos": "West_is_Corrupt_and_Causes_Death_in_Ukraine_Conflict_positive.png",
+        "imageneg": "West_is_Corrupt_and_Causes_Death_in_Ukraine_Conflict_negative.png"
     },
     {
         "title": "US has Double Standards in Global Conflicts",
-        "imagepos": "US has Double Standards in Global Conflicts_positive.png",
-        "imageneg": "US has Double Standards in Global Conflicts_negative.png"
+        "imagepos": "US_has_Double_Standards_in_Global_Conflicts_positive.png",
+        "imageneg": "US_has_Double_Standards_in_Global_Conflicts_negative.png"
     },
     {
         "title": "Mercenaries and Atrocities in Ukraine",
-        "imagepos": "Mercenaries and Atrocities in Ukraine_positive.png",
-        "imageneg": "Mercenaries and Atrocities in Ukraine_negative.png"
+        "imagepos": "Mercenaries_and_Atrocities_in_Ukraine_positive.png",
+        "imageneg": "Mercenaries_and_Atrocities_in_Ukraine_negative.png"
     },
     {
         "title": "Nazism and the Bandera Ideology in Ukraine Conflict",
-        "imagepos": "Nazism and the Bandera Ideology in Ukraine Conflict_positive.png",
-        "imageneg": "Nazism and the Bandera Ideology in Ukraine Conflict_negative.png"
+        "imagepos": "Nazism_and_the_Bandera_Ideology_in_Ukraine_Conflict_positive.png",
+        "imageneg": "Nazism_and_the_Bandera_Ideology_in_Ukraine_Conflict_negative.png"
     },
     {
         "title": "Biden Family's Foreign Influence and Corruption",
-        "imagepos": "Biden Family's Foreign Influence and Corruption_positive.png",
-        "imageneg": "Biden Family's Foreign Influence and Corruption_negative.png"
+        "imagepos": "Biden_Family's_Foreign_Influence_and_Corruption_positive.png",
+        "imageneg": "Biden_Family's_Foreign_Influence_and_Corruption_negative.png"
     },
     {
         "title": "US Rejects Peace Deal Despite Americans Desire",
-        "imagepos": "US Rejects Peace Deal Despite Americans Desire_positive.png",
-        "imageneg": "US Rejects Peace Deal Despite Americans Desire_negative.png"
+        "imagepos": "US_Rejects_Peace_Deal_Despite_Americans_Desire_positive.png",
+        "imageneg": "US_Rejects_Peace_Deal_Despite_Americans_Desire_negative.png"
     },
     {
         "title": "Global Push for Ceasefire",
-        "imagepos": "Global Push for Ceasefire_positive.png",
-        "imageneg": "Global Push for Ceasefire_negative.png"
+        "imagepos": "Global_Push_for_Ceasefire_positive.png",
+        "imageneg": "Global_Push_for_Ceasefire_negative.png"
     },
     {
         "title": "So-Called 'Humanitarian' Aid in Global Conflicts",
-        "imagepos": "So-Called 'Humanitarian' Aid in Global Conflicts_positive.png",
-        "imageneg": "So-Called 'Humanitarian' Aid in Global Conflicts_negative.png"
+        "imagepos": "So-Called_'Humanitarian'_Aid_in_Global_Conflicts_positive.png",
+        "imageneg": "So-Called_'Humanitarian'_Aid_in_Global_Conflicts_negative.png"
     },
     {
         "title": "Swiss Peace Summit Highlights Divisions Over Ukraine War",
-        "imagepos": "Swiss Peace Summit Highlights Divisions Over Ukraine War_positive.png",
-        "imageneg": "Swiss Peace Summit Highlights Divisions Over Ukraine War_negative.png"
+        "imagepos": "Swiss_Peace_Summit_Highlights_Divisions_Over_Ukraine_War_positive.png",
+        "imageneg": "Swiss_Peace_Summit_Highlights_Divisions_Over_Ukraine_War_negative.png"
     },
     {
         "title": "China's Advocacy for a Political Settlement in the Ukraine Crisis",
-        "imagepos": "China's Advocacy for a Political Settlement in the Ukraine Crisis_positive.png",
-        "imageneg": "China's Advocacy for a Political Settlement in the Ukraine Crisis_negative.png"
+        "imagepos": "China's_Advocacy_for_a_Political_Settlement_in_the_Ukraine_Crisis_positive.png",
+        "imageneg": "China's_Advocacy_for_a_Political_Settlement_in_the_Ukraine_Crisis_negative.png"
     },
     {
         "title": "Ukraine's Unit No. 110: Horrifying Crimes Against Humanity",
-        "imagepos": "Ukraine's Unit No. 110: Horrifying Crimes Against Humanity_positive.png",
-        "imageneg": "Ukraine's Unit No. 110: Horrifying Crimes Against Humanity_negative.png"
+        "imagepos": "Ukraine's_Unit_No._110:_Horrifying_Crimes_Against_Humanity_positive.png",
+        "imageneg": "Ukraine's_Unit_No._110:_Horrifying_Crimes_Against_Humanity_negative.png"
     },
     {
         "title": "NATO will Punish China",
-        "imagepos": "NATO will Punish China_positive.png",
-        "imageneg": "NATO will Punish China_negative.png"
+        "imagepos": "NATO_will_Punish_China_positive.png",
+        "imageneg": "NATO_will_Punish_China_negative.png"
     },
     {
         "title": "Laurent Brayard warns French Mercenaries in Ukraine",
-        "imagepos": "Laurent Brayard warns French Mercenaries in Ukraine_positive.png",
-        "imageneg": "Laurent Brayard warns French Mercenaries in Ukraine_negative.png"
+        "imagepos": "Laurent_Brayard_warns_French_Mercenaries_in_Ukraine_positive.png",
+        "imageneg": "Laurent_Brayard_warns_French_Mercenaries_in_Ukraine_negative.png"
     },
     {
         "title": "Diplomatic Efforts for Peace in Nizhny Novgorod",
-        "imagepos": "Diplomatic Efforts for Peace in Nizhny Novgorod_positive.png",
-        "imageneg": "Diplomatic Efforts for Peace in Nizhny Novgorod_negative.png"
+        "imagepos": "Diplomatic_Efforts_for_Peace_in_Nizhny_Novgorod_positive.png",
+        "imageneg": "Diplomatic_Efforts_for_Peace_in_Nizhny_Novgorod_negative.png"
     },
     {
         "title": "Key Nations Refuse to Sign Final Declaration",
-        "imagepos": "Key Nations Refuse to Sign Final Declaration_positive.png",
-        "imageneg": "Key Nations Refuse to Sign Final Declaration_negative.png"
+        "imagepos": "Key_Nations_Refuse_to_Sign_Final_Declaration_positive.png",
+        "imageneg": "Key_Nations_Refuse_to_Sign_Final_Declaration_negative.png"
     }
-];
+]
 
 
 const topicArray = [
