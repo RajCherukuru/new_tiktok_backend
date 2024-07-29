@@ -383,7 +383,7 @@ const { filter, narrativeFilter, flag, name, isCheckedImage, isCheckedVideo } = 
 
 let stance;
 
-if(filter !== "NONE" && narrativeFilter == "NONE"){
+if(filter !== "Topic" && narrativeFilter == "Narrative"){
     stance= topicArray.filter((single)=>(single.title === filter))
 
 }
@@ -408,10 +408,10 @@ console.log(stance);
   
 
 
-    if(filter === "NONE"){
+    if(filter === "Topic"){
         filter === ""
     }
-    if(narrativeFilter === "NONE"){
+    if(narrativeFilter === "Narrative"){
         narrativeFilter === ""
     }
 
@@ -424,7 +424,7 @@ try{
     let tweets= [];
 
 
-    if(filter !== "NONE" && narrativeFilter == "NONE"){
+    if(filter !== "Topic" && narrativeFilter == "Narrative"){
         const raw=await topicmodel.find();
         const data = raw[0].camps[0].topics;
     
@@ -473,7 +473,7 @@ try{
     let nameTweetstopic=[];
 
 
-    if(name !== "NONE"){
+    if(name !== "Faces"){
 
     tweets.map((single)=>{
         let isNameVisible=false;
@@ -508,7 +508,7 @@ try{
 let flagTweetstopic=[];
 
 
-if(flag !== "NONE"){
+if(flag !== "flags"){
 
 tweets.map((single)=>{
     let isNameVisible=false;
